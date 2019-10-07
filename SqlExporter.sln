@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlExporterService", "SqlExporter\SqlExporterService.csproj", "{E4C881E6-70D8-45BA-A83A-EC156B552A5B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0DC1669-D509-44BD-B14F-CBABAE328A3B} = {A0DC1669-D509-44BD-B14F-CBABAE328A3B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlExporterTester", "SqlExporterTester\SqlExporterTester.csproj", "{70FEAE25-E4E2-4A0E-B771-BC15C856DB2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0DC1669-D509-44BD-B14F-CBABAE328A3B} = {A0DC1669-D509-44BD-B14F-CBABAE328A3B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlExporterCore", "SqlExporterCore\SqlExporterCore.csproj", "{A0DC1669-D509-44BD-B14F-CBABAE328A3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4C881E6-70D8-45BA-A83A-EC156B552A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C881E6-70D8-45BA-A83A-EC156B552A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C881E6-70D8-45BA-A83A-EC156B552A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C881E6-70D8-45BA-A83A-EC156B552A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FEAE25-E4E2-4A0E-B771-BC15C856DB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FEAE25-E4E2-4A0E-B771-BC15C856DB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FEAE25-E4E2-4A0E-B771-BC15C856DB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FEAE25-E4E2-4A0E-B771-BC15C856DB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DC1669-D509-44BD-B14F-CBABAE328A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DC1669-D509-44BD-B14F-CBABAE328A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DC1669-D509-44BD-B14F-CBABAE328A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DC1669-D509-44BD-B14F-CBABAE328A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F379634-752E-4C83-9825-1932D9417EE7}
+	EndGlobalSection
+EndGlobal
