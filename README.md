@@ -25,3 +25,8 @@ repositorioGIT: caminho da pasta de trabalho do projeto versionado.
 
 A aplicação utiliza NLog e está com exemplo configurado para gerar os arquivos em "logs/SqlExporter.log".
 
+Para instalação do serviço no Windows:
+-abra um prompt de comando em modo administrador.
+-execute o comando: sc create "SqlExporter" binPath="<caminho-pasta-instalação>\SqlExporter.exe" start=delayed-auto error=ignore DisplayName="Serviço de exportação de objetos do SQL Server"
+
+Se a forma de conexão com o banco de dados estiver integrada com o Windows, será prefico definir a conta responsável pela conexão na aba de Logon das propriedades do Serviço.
